@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="VitalSigns">bc5f858507d03010a419fdac7c1ed0ea</applet_launcher>
+        <order/>
+        <section display_value="User">995fc58507d03010a419fdac7c1ed08c</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-21 18:08:09</sys_created_on>
+        <sys_id>915fc58507d03010a419fdac7c1ed08e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_915fc58507d03010a419fdac7c1ed08e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-21 18:08:09</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Patient Screening" max_length="40" name="x_623760_vitalsign_patient_screening" sizeclass="0" type="collection">
+        <element label="Blood Pressure" max_length="40" name="blood_pressure" type="string"/>
+        <element label="Checked In" max_length="40" name="checked_in" reference="itil_appointment" type="reference"/>
+        <element label="Notes" max_length="5000" name="notes" type="string"/>
+        <element dependent="number" dependent_on_field="number" label="Patient Record ID" max_length="32" name="patient_record_id" reference="x_623760_vitalsign_patient_record" type="reference" use_dependent_field="true"/>
+        <element label="Pulse" max_length="40" name="pulse" type="integer"/>
+        <element label="Respirations" max_length="40" name="respirations" type="integer"/>
+        <element label="Tech's Name" max_length="32" name="tech_s_name" reference="sys_user" type="reference"/>
+        <element label="Temperature" max_length="40" name="temperature" type="integer"/>
+        <index name="index">
+            <element name="patient_record_id"/>
+        </index>
+        <index name="index2">
+            <element name="tech_s_name"/>
+        </index>
+    </element>
+</database>

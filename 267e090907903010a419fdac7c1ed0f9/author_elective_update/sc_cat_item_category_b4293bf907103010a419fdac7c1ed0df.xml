@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="VitalSigns Scheduler">0cc7f7b907103010a419fdac7c1ed009</sc_cat_item>
+        <sc_category display_value="Patient &amp; Visitors Service">d0947e2507332010a419fdac7c1ed0a1</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 14:25:28</sys_created_on>
+        <sys_id>b4293bf907103010a419fdac7c1ed0df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient &amp; Visitors Service.VitalSigns Scheduler</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sc_cat_item_category_b4293bf907103010a419fdac7c1ed0df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 14:25:28</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sc_cat_item_category_b4293bf907103010a419fdac7c1ed0df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="VitalSigns Scheduler">0cc7f7b907103010a419fdac7c1ed009</sc_cat_item><sc_category display_value="Patient &amp; Visitors Service">d0947e2507332010a419fdac7c1ed0a1</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-24 14:25:28</sys_created_on><sys_id>b4293bf907103010a419fdac7c1ed0df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Patient &amp; Visitors Service.VitalSigns Scheduler</sys_name><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sc_cat_item_category_b4293bf907103010a419fdac7c1ed0df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-24 14:25:28</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>413961111</payload_hash>
+        <record_name>Patient &amp; Visitors Service.VitalSigns Scheduler</record_name>
+        <reverted_from/>
+        <source>267e090907903010a419fdac7c1ed0fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 14:25:28</sys_created_on>
+        <sys_id>bc293bf907103010a419fdac7c1ed0e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1799ec433420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 14:25:28</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>34293bf94d103010d2f9fd9624bd21e2</update_guid>
+        <update_guid_history>34293bf94d103010d2f9fd9624bd21e2:413961111</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Patient &amp; Visitors Service.VitalSigns Scheduler">74397bf907103010a419fdac7c1ed0b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 14:25:45</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>40f95aea7a5a467297596a1342f35504</sys_id>
+        <sys_metadata>b4293bf907103010a419fdac7c1ed0df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient &amp; Visitors Service.VitalSigns Scheduler</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_b4293bf907103010a419fdac7c1ed0df</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_b4293bf907103010a419fdac7c1ed0df">bc293bf907103010a419fdac7c1ed0e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 14:25:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

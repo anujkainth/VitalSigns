@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>sys_user</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="User Form Screen">155fc58507d03010a419fdac7c1ed04b</embedded_screen>
+        <item_view/>
+        <name>User master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-21 18:08:08</sys_created_on>
+        <sys_id>515fc58507d03010a419fdac7c1ed04e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User master_item</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_sg_master_item_515fc58507d03010a419fdac7c1ed04e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-21 18:08:08</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="User List Screen View Config">3c5f858507d03010a419fdac7c1ed0ee</view_config>
+    </sys_sg_master_item>
+</record_update>

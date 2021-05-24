@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Patient Record</name>
+        <order>100</order>
+        <roles>x_623760_vitalsign.patient_record_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-21 18:11:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b30051c507d03010a419fdac7c1ed0da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_app_application_b30051c507d03010a419fdac7c1ed0da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-21 18:11:19</sys_updated_on>
+        <title>Patient Record</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_app_application_b30051c507d03010a419fdac7c1ed0da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Patient Record</name><order>100</order><roles>x_623760_vitalsign.patient_record_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-21 18:11:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b30051c507d03010a419fdac7c1ed0da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Patient Record</sys_name><sys_overrides/><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sys_app_application_b30051c507d03010a419fdac7c1ed0da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-21 18:11:19</sys_updated_on><title>Patient Record</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1670204171</payload_hash>
+        <record_name>Patient Record</record_name>
+        <reverted_from/>
+        <source>267e090907903010a419fdac7c1ed0fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-21 18:11:19</sys_created_on>
+        <sys_id>c01051c507d03010a419fdac7c1ed0dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179901fe4400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-21 18:11:19</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>3f0051c525d03010c13085527d87bedb</update_guid>
+        <update_guid_history>3f0051c525d03010c13085527d87bedb:1670204171</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Patient Record">0bd669c507143010a419fdac7c1ed0bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-21 19:50:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>056cae8a7cf14d1792cf94b5374be119</sys_id>
+        <sys_metadata>b30051c507d03010a419fdac7c1ed0da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Record</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_app_application_b30051c507d03010a419fdac7c1ed0da</sys_update_name>
+        <sys_update_version display_value="sys_app_application_b30051c507d03010a419fdac7c1ed0da">c01051c507d03010a419fdac7c1ed0dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-21 19:50:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

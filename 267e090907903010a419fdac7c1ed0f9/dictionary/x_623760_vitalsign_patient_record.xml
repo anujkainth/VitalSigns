@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Patient Record" max_length="40" name="x_623760_vitalsign_patient_record" sizeclass="1" type="collection">
+        <element label="Allergies" max_length="1000" name="allergies" type="string"/>
+        <element label="Current Medication" max_length="5000" name="current_medication" type="string"/>
+        <element label="Medical Hx" max_length="1000" name="medical_hx" type="string"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Patient Record ID" max_length="40" name="number" type="string"/>
+        <element label="Surgical Hx" max_length="1000" name="surgical_hx" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

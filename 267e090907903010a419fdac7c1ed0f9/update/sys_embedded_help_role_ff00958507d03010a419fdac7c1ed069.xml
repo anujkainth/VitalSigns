@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_623760_vitalsign.patient_record_user" name="x_623760_vitalsign.patient_record_user">b300958507d03010a419fdac7c1ed067</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-21 18:11:19</sys_created_on>
+        <sys_id>ff00958507d03010a419fdac7c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b300958507d03010a419fdac7c1ed067</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ff00958507d03010a419fdac7c1ed069</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-21 18:11:19</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
