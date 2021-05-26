@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application/>
+        <application display_value="VitalSigns">8a4f058507d03010a419fdac7c1ed0b0</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -10,7 +10,7 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Patient Records</mobile_title>
+        <mobile_title>Patient Record</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_623760_vitalsign_patient_record</name>
         <order/>
@@ -20,21 +20,21 @@
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-21 18:11:19</sys_created_on>
+        <sys_created_on>2021-05-26 22:26:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>481051c507d03010a419fdac7c1ed0dc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Patient Records</sys_name>
+        <sys_id>083aff2607543010a419fdac7c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Record</sys_name>
         <sys_overrides/>
         <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
         <sys_policy/>
         <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
-        <sys_update_name>sys_app_module_481051c507d03010a419fdac7c1ed0dc</sys_update_name>
+        <sys_update_name>sys_app_module_083aff2607543010a419fdac7c1ed0cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-26 22:24:50</sys_updated_on>
+        <sys_updated_on>2021-05-26 22:26:03</sys_updated_on>
         <timeline_page/>
-        <title>Patient Records</title>
+        <title>Patient Record</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
