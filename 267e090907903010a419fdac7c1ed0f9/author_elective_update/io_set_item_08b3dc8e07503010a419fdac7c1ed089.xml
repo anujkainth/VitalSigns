@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="VitalSigns Scheduler">bfa3d48e07503010a419fdac7c1ed000</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 16:21:28</sys_created_on>
+        <sys_id>08b3dc8e07503010a419fdac7c1ed089</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_appointment_variable_set.VitalSigns Scheduler</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>io_set_item_08b3dc8e07503010a419fdac7c1ed089</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 16:21:28</sys_updated_on>
+        <variable_set display_value="sn_appointment_variable_set">e33bd9f493b0030045a3f5be867ffbc5</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>io_set_item_08b3dc8e07503010a419fdac7c1ed089</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="VitalSigns Scheduler">bfa3d48e07503010a419fdac7c1ed000</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-24 16:21:28</sys_created_on><sys_id>08b3dc8e07503010a419fdac7c1ed089</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_appointment_variable_set.VitalSigns Scheduler</sys_name><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>io_set_item_08b3dc8e07503010a419fdac7c1ed089</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-24 16:21:28</sys_updated_on><variable_set display_value="sn_appointment_variable_set">e33bd9f493b0030045a3f5be867ffbc5</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-2002408078</payload_hash>
+        <record_name>sn_appointment_variable_set.VitalSigns Scheduler</record_name>
+        <reverted_from/>
+        <source>4553d80e07503010a419fdac7c1ed06d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 16:21:28</sys_created_on>
+        <sys_id>0cb3dc8e07503010a419fdac7c1ed08d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1799f2e667c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 16:21:28</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>80b3dc8e0d50301018983442a759978d</update_guid>
+        <update_guid_history>80b3dc8e0d50301018983442a759978d:-2002408078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_appointment_variable_set.VitalSigns Scheduler">7566504207903010a419fdac7c1ed0d2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 16:33:20</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>440500d2ebb2428094c9d1b59c16e710</sys_id>
+        <sys_metadata>08b3dc8e07503010a419fdac7c1ed089</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_appointment_variable_set.VitalSigns Scheduler</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>io_set_item_08b3dc8e07503010a419fdac7c1ed089</sys_update_name>
+        <sys_update_version display_value="io_set_item_08b3dc8e07503010a419fdac7c1ed089">0cb3dc8e07503010a419fdac7c1ed08d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 16:33:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
