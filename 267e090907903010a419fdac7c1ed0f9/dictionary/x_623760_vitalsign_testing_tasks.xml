@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Testing Tasks" max_length="40" name="x_623760_vitalsign_testing_tasks" sizeclass="0" type="collection">
+        <element label="Appointments" max_length="32" name="appointments" reference="x_623760_vitalsign_appointments" type="reference"/>
+    </element>
+</database>

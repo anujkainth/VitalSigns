@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_623760_vitalsign.patient_screening_user" name="x_623760_vitalsign.patient_screening_user">cad2d50907d03010a419fdac7c1ed00e</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-21 18:23:29</sys_created_on>

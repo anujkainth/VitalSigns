@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Appointments" max_length="40" name="x_623760_vitalsign_appointments" sizeclass="2" type="collection">
+    <element extends="task" label="Appointments" max_length="40" name="x_623760_vitalsign_appointments" sizeclass="6" type="collection">
         <element label="Appointment Date" max_length="40" name="appointment_date" type="glide_date_time"/>
         <element label="Checked In" max_length="40" name="checked_in" type="glide_date_time"/>
         <element label="Encounter Notes" max_length="5000" name="encounter_notes" type="string"/>
         <element label="Patient Record ID" max_length="32" name="patient_record_id" reference="x_623760_vitalsign_patient_record" type="reference"/>
         <element label="Reason for Visit" max_length="1000" name="reason_for_visit" type="string"/>
+        <element label="Special Tests" max_length="32" name="special_tests" reference="x_623760_vitalsign_lab" type="reference"/>
+        <element label="Testing Tasks" max_length="32" name="testing_tasks" reference="x_623760_vitalsign_testing_tasks" type="reference"/>
     </element>
 </database>

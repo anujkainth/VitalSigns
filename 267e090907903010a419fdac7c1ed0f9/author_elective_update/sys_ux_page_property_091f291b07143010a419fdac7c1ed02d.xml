@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name/>
+        <page display_value="VitalSigns">1dce2dd707143010a419fdac7c1ed0e2</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 20:13:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>091f291b07143010a419fdac7c1ed02d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_ux_page_property_091f291b07143010a419fdac7c1ed02d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 20:13:20</sys_updated_on>
+        <type>string</type>
+        <unique_name/>
+        <value>1024</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=091f291b07143010a419fdac7c1ed02d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_ux_page_property_091f291b07143010a419fdac7c1ed02d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name/><page display_value="VitalSigns">1dce2dd707143010a419fdac7c1ed0e2</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-28 20:13:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>091f291b07143010a419fdac7c1ed02d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sys_ux_page_property_091f291b07143010a419fdac7c1ed02d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-28 20:13:20</sys_updated_on><type>string</type><unique_name/><value>1024</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=091f291b07143010a419fdac7c1ed02d"/></record_update>]]></payload>
+        <payload_hash>-454343361</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>749d87b607103010a419fdac7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 20:13:20</sys_created_on>
+        <sys_id>6b1fe51b07143010a419fdac7c1ed0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179b49c1d150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 20:13:20</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>a31fe51b101430109933d659404591d1</update_guid>
+        <update_guid_history>a31fe51b101430109933d659404591d1:-454343361</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 20:13:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1d38832377f84a28add0a7e3252c4ce1</sys_id>
+        <sys_metadata>091f291b07143010a419fdac7c1ed02d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_091f291b07143010a419fdac7c1ed02d</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_091f291b07143010a419fdac7c1ed02d">6b1fe51b07143010a419fdac7c1ed0d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 20:13:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

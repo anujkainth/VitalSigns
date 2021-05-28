@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_623760_vitalsign_specialty_consult">x_623760_vitalsign_specialty_consult</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SPE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:10:26</sys_created_on>
+        <sys_id>b972137a07103010a419fdac7c1ed007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SPE</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_number_b972137a07103010a419fdac7c1ed007</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:10:26</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_number_b972137a07103010a419fdac7c1ed007</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_623760_vitalsign_specialty_consult">x_623760_vitalsign_specialty_consult</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>SPE</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 14:10:26</sys_created_on><sys_id>b972137a07103010a419fdac7c1ed007</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SPE</sys_name><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sys_number_b972137a07103010a419fdac7c1ed007</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 14:10:26</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-153287722</payload_hash>
+        <record_name>SPE</record_name>
+        <reverted_from/>
+        <source>749d87b607103010a419fdac7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:10:26</sys_created_on>
+        <sys_id>7d7257ba07103010a419fdac7c1ed0a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179ae2983fb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:10:26</sys_updated_on>
+        <type>Number</type>
+        <update_guid>b57257ba18103010313355fe6fa530a2</update_guid>
+        <update_guid_history>b57257ba18103010313355fe6fa530a2:-153287722</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:21:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>c7e8a2e5c28b4e9b9e16afaebc60bf29</sys_id>
+        <sys_metadata>b972137a07103010a419fdac7c1ed007</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SPE</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent display_value="">5cd0dff607103010a419fdac7c1ed003</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_number_b972137a07103010a419fdac7c1ed007</sys_update_name>
+        <sys_update_version display_value="sys_number_b972137a07103010a419fdac7c1ed007">7d7257ba07103010a419fdac7c1ed0a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:21:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

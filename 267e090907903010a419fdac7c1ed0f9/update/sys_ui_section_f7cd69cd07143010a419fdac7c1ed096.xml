@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-21 21:14:36</sys_created_on>
-            <sys_id>b40ab94907543010a419fdac7c1ed0b7</sys_id>
+            <sys_created_on>2021-05-28 17:43:45</sys_created_on>
+            <sys_id>d4ec895f07903010a419fdac7c1ed035</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-21 21:14:36</sys_updated_on>
+            <sys_updated_on>2021-05-28 17:43:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,125 +18,97 @@
             <element>opened_by.name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-21 21:14:36</sys_created_on>
-            <sys_id>380ab94907543010a419fdac7c1ed0b7</sys_id>
+            <sys_created_on>2021-05-28 17:43:45</sys_created_on>
+            <sys_id>58ec895f07903010a419fdac7c1ed035</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-21 21:14:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-21 21:14:36</sys_created_on>
-            <sys_id>b80ab94907543010a419fdac7c1ed0b7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-21 21:14:36</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>patient_record_id</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-21 21:14:36</sys_created_on>
-            <sys_id>3c0ab94907543010a419fdac7c1ed0b7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-21 21:14:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-21 21:14:36</sys_created_on>
-            <sys_id>bc0ab94907543010a419fdac7c1ed0b7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-21 21:14:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-21 21:14:36</sys_created_on>
-            <sys_id>300ab94907543010a419fdac7c1ed0b8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-21 21:14:36</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>reason_for_visit</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-21 21:14:36</sys_created_on>
-            <sys_id>b00ab94907543010a419fdac7c1ed0b8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-21 21:14:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>encounter_notes</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-21 21:14:36</sys_created_on>
-            <sys_id>340ab94907543010a419fdac7c1ed0b8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-21 21:14:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>checked_in</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-24 14:00:25</sys_created_on>
-            <sys_id>f1637fb507103010a419fdac7c1ed088</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-24 14:00:25</sys_updated_on>
+            <sys_updated_on>2021-05-28 17:43:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>appointment_date</element>
-            <position>9</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-24 14:13:11</sys_created_on>
-            <sys_id>7c56ff3907103010a419fdac7c1ed0e3</sys_id>
+            <sys_created_on>2021-05-28 17:43:45</sys_created_on>
+            <sys_id>d8ec895f07903010a419fdac7c1ed035</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-24 14:13:11</sys_updated_on>
+            <sys_updated_on>2021-05-28 17:43:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-28 17:43:45</sys_created_on>
+            <sys_id>5cec895f07903010a419fdac7c1ed035</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-28 17:43:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>patient_record_id</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-28 17:43:45</sys_created_on>
+            <sys_id>dcec895f07903010a419fdac7c1ed035</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-28 17:43:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-28 17:43:45</sys_created_on>
+            <sys_id>50ec895f07903010a419fdac7c1ed036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-28 17:43:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-28 17:43:45</sys_created_on>
+            <sys_id>d0ec895f07903010a419fdac7c1ed036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-28 17:43:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_visit</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-28 17:43:45</sys_created_on>
+            <sys_id>54ec895f07903010a419fdac7c1ed036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_appointments" sys_domain="global" view="Default view">f7cd69cd07143010a419fdac7c1ed096</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-28 17:43:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

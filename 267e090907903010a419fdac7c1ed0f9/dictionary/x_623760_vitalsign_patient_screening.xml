@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Patient Screening" max_length="40" name="x_623760_vitalsign_patient_screening" sizeclass="6" type="collection">
-        <element label="Blood Pressure" max_length="40" name="blood_pressure" type="string"/>
-        <element label="Checked In" max_length="40" name="checked_in" reference="itil_appointment" type="reference"/>
-        <element label="Notes" max_length="5000" name="notes" type="string"/>
-        <element dependent="number" dependent_on_field="number" label="Patient Record ID" max_length="32" name="patient_record_id" reference="x_623760_vitalsign_patient_record" type="reference" use_dependent_field="true"/>
-        <element label="Pulse" max_length="40" name="pulse" type="integer"/>
-        <element label="Reason for visit" max_length="32" name="reason_for_visit" reference="x_623760_vitalsign_appointments" reference_qual="reason_for_visitSTARTSWITH^EQ" reference_qual_condition="reason_for_visitSTARTSWITH^EQ" type="reference"/>
+    <element extends="task" label="Patient Screening" max_length="40" name="x_623760_vitalsign_patient_screening" type="collection">
+        <element label="Blood Pressure" max_length="7" name="blood_pressure" type="string"/>
+        <element label="Checked In" max_length="32" name="checked_in" reference="x_623760_vitalsign_appointments" type="reference"/>
+        <element default="4000" label="Notes" max_length="40" name="notes" type="string"/>
+        <element label="Patient Record ID" max_length="32" name="patient_record_id" reference="x_623760_vitalsign_patient_record" type="reference"/>
+        <element label="Pulse" max_length="3" name="pulse" type="integer"/>
+        <element label="Reason for Visit" max_length="32" name="reason_for_visit" reference="x_623760_vitalsign_appointments" type="reference"/>
         <element label="Respirations" max_length="40" name="respirations" type="integer"/>
-        <element label="Tech's Name" max_length="32" name="tech_s_name" reference="sys_user" type="reference"/>
+        <element label="Tech's Name" max_length="32" name="tech_s_name" reference="sys_user" reference_floats="true" reference_qual="roles=x_623760_vitalsign.Technicians^EQ" reference_qual_condition="roles=x_623760_vitalsign.Technicians^EQ" type="reference"/>
         <element label="Temperature" max_length="40" name="temperature" type="integer"/>
-        <index name="index">
-            <element name="patient_record_id"/>
-        </index>
-        <index name="index2">
-            <element name="tech_s_name"/>
-        </index>
-        <index name="index3">
-            <element name="reason_for_visit"/>
-        </index>
     </element>
 </database>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_623760_vitalsign_testing_and_consults">x_623760_vitalsign_testing_and_consults</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>TES</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:24:55</sys_created_on>
+        <sys_id>bdc59f3e07103010a419fdac7c1ed000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TES</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_number_bdc59f3e07103010a419fdac7c1ed000</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:24:55</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_number_bdc59f3e07103010a419fdac7c1ed000</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_623760_vitalsign_testing_and_consults">x_623760_vitalsign_testing_and_consults</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>TES</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 14:24:55</sys_created_on><sys_id>bdc59f3e07103010a419fdac7c1ed000</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TES</sys_name><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sys_number_bdc59f3e07103010a419fdac7c1ed000</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 14:24:55</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-345516548</payload_hash>
+        <record_name>TES</record_name>
+        <reverted_from/>
+        <source>749d87b607103010a419fdac7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:24:55</sys_created_on>
+        <sys_id>f1c59f3e07103010a419fdac7c1ed009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179ae36c4710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:24:55</sys_updated_on>
+        <type>Number</type>
+        <update_guid>3dc59f3e0310301093ede44ae26ab208</update_guid>
+        <update_guid_history>3dc59f3e0310301093ede44ae26ab208:-345516548</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:27:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>559c0a9a71204ab2a640d1ddff0bbe59</sys_id>
+        <sys_metadata>bdc59f3e07103010a419fdac7c1ed000</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TES</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent display_value="">b3551b3e07103010a419fdac7c1ed0ef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_number_bdc59f3e07103010a419fdac7c1ed000</sys_update_name>
+        <sys_update_version display_value="sys_number_bdc59f3e07103010a419fdac7c1ed000">f1c59f3e07103010a419fdac7c1ed009</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:27:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

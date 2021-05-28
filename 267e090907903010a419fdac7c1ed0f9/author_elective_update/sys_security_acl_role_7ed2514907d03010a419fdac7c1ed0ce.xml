@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-21 18:23:32</sys_created_on>
+        <sys_id>7ed2514907d03010a419fdac7c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_623760_vitalsign_patient_screening.x_623760_vitalsign.patient_screening_user</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_security_acl display_value="x_623760_vitalsign_patient_screening">bed2514907d03010a419fdac7c1ed0cb</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7ed2514907d03010a419fdac7c1ed0ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-21 18:23:32</sys_updated_on>
+        <sys_user_role display_value="x_623760_vitalsign.patient_screening_user" name="x_623760_vitalsign.patient_screening_user">cad2d50907d03010a419fdac7c1ed00e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_security_acl_role_7ed2514907d03010a419fdac7c1ed0ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-21 18:23:32</sys_created_on><sys_id>7ed2514907d03010a419fdac7c1ed0ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_623760_vitalsign_patient_screening.x_623760_vitalsign.patient_screening_user</sys_name><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_security_acl display_value="x_623760_vitalsign_patient_screening">bed2514907d03010a419fdac7c1ed0cb</sys_security_acl><sys_update_name>sys_security_acl_role_7ed2514907d03010a419fdac7c1ed0ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-21 18:23:32</sys_updated_on><sys_user_role display_value="x_623760_vitalsign.patient_screening_user" name="x_623760_vitalsign.patient_screening_user">cad2d50907d03010a419fdac7c1ed00e</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1889833833</payload_hash>
+        <record_name>x_623760_vitalsign_patient_screening.x_623760_vitalsign.patient_screening_user</record_name>
+        <reverted_from/>
+        <source>267e090907903010a419fdac7c1ed0fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-21 18:23:32</sys_created_on>
+        <sys_id>f6d2514907d03010a419fdac7c1ed0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179902b10dd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-21 18:23:32</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>32d25149e4d03010db4ebd4bf80244d1</update_guid>
+        <update_guid_history>32d25149e4d03010db4ebd4bf80244d1:-1889833833</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_623760_vitalsign_patient_screening.x_623760_vitalsign.patient_screening_user">691b609707503010a419fdac7c1ed0ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 15:16:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3101d4c5c8af406aa74570ab049e87d9</sys_id>
+        <sys_metadata>7ed2514907d03010a419fdac7c1ed0ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_623760_vitalsign_patient_screening.x_623760_vitalsign.patient_screening_user</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent display_value="">bed2514907d03010a419fdac7c1ed0cb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_7ed2514907d03010a419fdac7c1ed0ce</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_7ed2514907d03010a419fdac7c1ed0ce">f6d2514907d03010a419fdac7c1ed0d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 15:16:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

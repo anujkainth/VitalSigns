@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_623760_vitalsign_testing_and_consults</description>
+        <name>x_623760_vitalsign_testing_and_consults</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:24:03</sys_created_on>
+        <sys_id>9d951f3e07103010a419fdac7c1ed0fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_623760_vitalsign_testing_and_consults</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_security_acl_9d951f3e07103010a419fdac7c1ed0fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:24:03</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_security_acl_9d951f3e07103010a419fdac7c1ed0fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_623760_vitalsign_testing_and_consults</description><name>x_623760_vitalsign_testing_and_consults</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 14:24:03</sys_created_on><sys_id>9d951f3e07103010a419fdac7c1ed0fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_623760_vitalsign_testing_and_consults</sys_name><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sys_security_acl_9d951f3e07103010a419fdac7c1ed0fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 14:24:03</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1938883982</payload_hash>
+        <record_name>x_623760_vitalsign_testing_and_consults</record_name>
+        <reverted_from/>
+        <source>749d87b607103010a419fdac7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:24:03</sys_created_on>
+        <sys_id>95951f3e07103010a419fdac7c1ed0fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179ae35faff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:24:03</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>dd951f3ed0103010d318ada827b791fd</update_guid>
+        <update_guid_history>dd951f3ed0103010d318ada827b791fd:1938883982</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:27:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0c846c0046654414821b8eadcd3ba661</sys_id>
+        <sys_metadata>9d951f3e07103010a419fdac7c1ed0fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_623760_vitalsign_testing_and_consults</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent display_value="">1d955f3e07103010a419fdac7c1ed007</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9d951f3e07103010a419fdac7c1ed0fb</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9d951f3e07103010a419fdac7c1ed0fb">95951f3e07103010a419fdac7c1ed0fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:27:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
