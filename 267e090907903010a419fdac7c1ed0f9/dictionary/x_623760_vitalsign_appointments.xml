@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Appointments" max_length="40" name="x_623760_vitalsign_appointments" sizeclass="6" type="collection">
+    <element extends="task" label="Appointments" max_length="40" name="x_623760_vitalsign_appointments" sizeclass="5" type="collection">
         <element label="Appointment Date" max_length="40" name="appointment_date" type="glide_date_time"/>
         <element label="Checked In" max_length="40" name="checked_in" type="glide_date_time"/>
         <element label="Encounter Notes" max_length="5000" name="encounter_notes" type="string"/>
