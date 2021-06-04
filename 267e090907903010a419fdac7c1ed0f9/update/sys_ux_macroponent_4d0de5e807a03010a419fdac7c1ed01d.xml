@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_2",
+  "elementLabel" : "Container 2",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "form__fields_1",
+      "elementLabel" : "Form - fields 1",
+      "propertyValues" : {
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_623760_vitalsign_appointments"
+        },
+        "sysId" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "number" ],
+            "category" : "props"
+          }
+        },
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Staff"
+        },
+        "forcedViewName" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "query" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "readOnlyForm" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "inUiBuilder" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "workspaceConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : "7b24ceae5304130084acddeeff7b12a3"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "f4d3254a798ef092d9023d408f257789",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Appointment Details</name>
+        <props>[ {
+  "name" : "number",
+  "label" : "Number",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "patientRecordNumber",
+  "label" : "patientRecordNumber",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 17:16:35</sys_created_on>
+        <sys_id>4d0de5e807a03010a419fdac7c1ed01d</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Appointment Details</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_ux_macroponent_4d0de5e807a03010a419fdac7c1ed01d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 17:58:08</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

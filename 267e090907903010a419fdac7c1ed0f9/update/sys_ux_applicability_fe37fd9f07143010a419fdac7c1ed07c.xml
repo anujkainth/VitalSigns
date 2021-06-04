@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_623760_vitalsign.public_VitalSigns</api_name>
+        <description/>
+        <name>public_VitalSigns</name>
+        <roles name="x_623760_vitalsign.user">e5ce810107d03010a419fdac7c1ed0ca</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 20:49:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe37fd9f07143010a419fdac7c1ed07c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>public_VitalSigns</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_ux_applicability_fe37fd9f07143010a419fdac7c1ed07c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 20:49:15</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

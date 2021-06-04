@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_623760_vitalsign_lab" version="2" view="Mobile">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-27 15:47:58</sys_created_on>
+            <sys_id>96c8a3fa07503010a419fdac7c1ed011</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-27 15:47:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mri</element>
+            <list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-27 15:47:58</sys_created_on>
+            <sys_id>1ac8a3fa07503010a419fdac7c1ed011</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-27 15:47:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ordering_provider</element>
+            <list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-27 15:47:58</sys_created_on>
+            <sys_id>9ac8a3fa07503010a419fdac7c1ed011</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-27 15:47:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>result</element>
+            <list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-27 15:47:58</sys_created_on>
+            <sys_id>1ec8a3fa07503010a419fdac7c1ed011</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-27 15:47:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tech</element>
+            <list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-27 15:47:58</sys_created_on>
+            <sys_id>9ec8a3fa07503010a419fdac7c1ed011</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-27 15:47:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test</element>
+            <list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-27 15:47:58</sys_created_on>
+            <sys_id>12c8a3fa07503010a419fdac7c1ed012</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-27 15:47:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>xray</element>
+            <list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-27 15:47:58</sys_created_on>
+            <sys_id>92c8a3fa07503010a419fdac7c1ed012</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-27 15:47:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_623760_vitalsign_lab</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-27 15:47:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ac8a3fa07503010a419fdac7c1ed010</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_623760_vitalsign_lab</sys_name>
+            <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+            <sys_update_name>sys_ui_list_x_623760_vitalsign_lab_Mobile</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-27 15:47:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Mobile" name="Mobile">bcacb0436d2220100acb70b3534330ab</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_ui_list_x_623760_vitalsign_lab_Mobile</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_623760_vitalsign_lab" version="2" view="Mobile"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 15:47:58</sys_created_on><sys_id>96c8a3fa07503010a419fdac7c1ed011</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 15:47:58</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>mri</element><list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 15:47:58</sys_created_on><sys_id>1ac8a3fa07503010a419fdac7c1ed011</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 15:47:58</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>ordering_provider</element><list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 15:47:58</sys_created_on><sys_id>9ac8a3fa07503010a419fdac7c1ed011</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 15:47:58</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>result</element><list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 15:47:58</sys_created_on><sys_id>1ec8a3fa07503010a419fdac7c1ed011</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 15:47:58</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>tech</element><list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 15:47:58</sys_created_on><sys_id>9ec8a3fa07503010a419fdac7c1ed011</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 15:47:58</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>test</element><list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 15:47:58</sys_created_on><sys_id>12c8a3fa07503010a419fdac7c1ed012</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 15:47:58</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>xray</element><list_id display_value="x_623760_vitalsign_lab" element="NULL" name="x_623760_vitalsign_lab" parent="NULL" relationship="NULL" sys_domain="global" view="bcacb0436d2220100acb70b3534330ab">5ac8a3fa07503010a419fdac7c1ed010</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 15:47:58</sys_created_on><sys_id>92c8a3fa07503010a419fdac7c1ed012</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 15:47:58</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_623760_vitalsign_lab</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 15:47:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5ac8a3fa07503010a419fdac7c1ed010</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_623760_vitalsign_lab</sys_name><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sys_ui_list_x_623760_vitalsign_lab_Mobile</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 15:47:58</sys_updated_on><sys_user/><view display_value="Mobile" name="Mobile">bcacb0436d2220100acb70b3534330ab</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-117655189</payload_hash>
+        <record_name>Special Test</record_name>
+        <reverted_from/>
+        <source>749d87b607103010a419fdac7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 15:47:58</sys_created_on>
+        <sys_id>52c8a3fa07503010a419fdac7c1ed014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179ae82cceb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 15:47:58</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>12c8a3fa015030108941cbb6bf2f3d14</update_guid>
+        <update_guid_history>12c8a3fa015030108941cbb6bf2f3d14:-117655189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 14:23:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>2283d18a008b4bcc996e3dd4f28a50c9</sys_id>
+        <sys_metadata>5ac8a3fa07503010a419fdac7c1ed010</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_623760_vitalsign_lab</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent display_value="">73669b3e07103010a419fdac7c1ed07b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_623760_vitalsign_lab_Mobile</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_623760_vitalsign_lab_Mobile">52c8a3fa07503010a419fdac7c1ed014</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 14:23:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

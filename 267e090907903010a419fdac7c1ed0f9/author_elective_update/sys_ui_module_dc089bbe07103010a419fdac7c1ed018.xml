@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="VitalSigns">2d12df7a07103010a419fdac7c1ed074</application>
+        <filter/>
+        <name>Labs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_623760_vitalsign.lab_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:34:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc089bbe07103010a419fdac7c1ed018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Labs</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_ui_module_dc089bbe07103010a419fdac7c1ed018</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:34:39</sys_updated_on>
+        <table>x_623760_vitalsign_lab</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_ui_module_dc089bbe07103010a419fdac7c1ed018</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="VitalSigns">2d12df7a07103010a419fdac7c1ed074</application><filter/><name>Labs</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_623760_vitalsign.lab_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-27 14:34:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dc089bbe07103010a419fdac7c1ed018</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Labs</sys_name><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sys_ui_module_dc089bbe07103010a419fdac7c1ed018</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-27 14:34:39</sys_updated_on><table>x_623760_vitalsign_lab</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1979645821</payload_hash>
+        <record_name>Labs</record_name>
+        <reverted_from/>
+        <source>749d87b607103010a419fdac7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-27 14:34:39</sys_created_on>
+        <sys_id>58089bbe07103010a419fdac7c1ed01a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179ae3fade90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-27 14:34:39</sys_updated_on>
+        <type>Module</type>
+        <update_guid>90089bbe5e103010baa2dd50286f1f1a</update_guid>
+        <update_guid_history>90089bbe5e103010baa2dd50286f1f1a:-1979645821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 14:23:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>462b60ca221e4c34a8dd7e729252dc89</sys_id>
+        <sys_metadata>dc089bbe07103010a419fdac7c1ed018</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Labs</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_ui_module_dc089bbe07103010a419fdac7c1ed018</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_dc089bbe07103010a419fdac7c1ed018">58089bbe07103010a419fdac7c1ed01a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 14:23:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

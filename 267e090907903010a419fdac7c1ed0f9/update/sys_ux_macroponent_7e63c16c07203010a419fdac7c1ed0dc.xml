@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "list__simple_1",
+      "elementLabel" : "List - Simple 1",
+      "propertyValues" : {
+        "listTitle" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Appointments",
+            "comment" : ""
+          }
+        },
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_623760_vitalsign_appointments"
+        },
+        "query" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "columns" : {
+          "type" : "JSON_LITERAL",
+          "value" : "number,checked_in,patient_record_id,patient_record_id.name.first_name,patient_record_id.name.last_name,assigned_to"
+        },
+        "limit" : {
+          "type" : "JSON_LITERAL",
+          "value" : 5
+        },
+        "maxColumns" : {
+          "type" : "JSON_LITERAL",
+          "value" : 5
+        },
+        "page" : {
+          "type" : "JSON_LITERAL",
+          "value" : 1
+        },
+        "highlightedValueConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "hideHighlightedValues" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideTitle" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideTitleRowCount" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRefreshButton" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLastRefreshedText" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLinks" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideViewAll" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideCellFilter" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideCheckboxHover" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideColumnFiltering" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideColumnGrouping" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideColumnSorting" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideFilterPanel" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideFirstPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLastPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLimitSelector" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideMenuButton" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideMultiEdit" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideDeclarativeActions" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideNextPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePages" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePagination" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hidePanel" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hidePanelAdvanced" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePanelConditionDelete" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePanelFooter" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePanelRestore" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePreviousPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideQuickEdit" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideRange" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRowCount" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRowSelector" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideSelectAll" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideEmptyStateImage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideDBViews" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideUnnecessaryRowSelectors" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "wordWrap" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "maxCharLimit" : {
+          "type" : "JSON_LITERAL",
+          "value" : 4000
+        },
+        "refreshRequested" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "recordSelectedTable" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "recordSelectedSysId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "recordSelectedQuery" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "recordSelectedView" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "ckpeaebbxeaaaaaaaddbhhymxubffddccr",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+        "sourceEventDefinition" : {
+          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_623760_vitalsign.NAV_ITEM_SELECTED_RELAY_7e63c16c07203010a419fdac7c1ed0dc",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "appointment-details"
+                },
+                "fields" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "number" : {
+                      "type" : "EVENT_PAYLOAD_BINDING",
+                      "binding" : {
+                        "address" : [ "sys_id" ]
+                      }
+                    }
+                  }
+                },
+                "params" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                }
+              }
+            },
+            "sysId" : "31e0fdac07603010a419fdac7c1ed029"
+          },
+          "operation" : null,
+          "targetId" : "ckpeaebbxfaaaaaabddbhhycczhhtbbjgg",
+          "type" : "EVENT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : null,
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : { }
+            },
+            "sysId" : null
+          },
+          "operation" : null,
+          "targetId" : "ckpebjahhhaaaaffiiddbhhyoleejbhhbbg",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : "Column 2",
+      "definition" : {
+        "id" : "2b1c080881e05dc63b917044290b233f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "appointment_calendar_1",
+      "elementLabel" : "Appointment calendar 1",
+      "propertyValues" : {
+        "appTitle" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : "WEEK"
+        },
+        "timezone" : {
+          "type" : "JSON_LITERAL",
+          "value" : "@"
+        },
+        "contextDate" : {
+          "type" : "JSON_LITERAL",
+          "value" : "2020-07-22"
+        },
+        "timeFormat" : {
+          "type" : "JSON_LITERAL",
+          "value" : "hh:mm A"
+        },
+        "dateFormat" : {
+          "type" : "JSON_LITERAL",
+          "value" : "MMMM D, YYYY"
+        },
+        "dateTimeFormat" : {
+          "type" : "JSON_LITERAL",
+          "value" : "MMMM DD, YYYY, hh:mm A"
+        },
+        "firstDayOfWeek" : {
+          "type" : "JSON_LITERAL",
+          "value" : 0
+        },
+        "locale" : {
+          "type" : "JSON_LITERAL",
+          "value" : "en"
+        },
+        "events" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "start" : {
+                "type" : "JSON_LITERAL",
+                "value" : "2020-07-22 18:15:00"
+              },
+              "end" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "2020-07-22 19:10:00",
+                  "comment" : ""
+                }
+              },
+              "type" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "unavailable",
+                  "comment" : ""
+                }
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "start" : {
+                "type" : "JSON_LITERAL",
+                "value" : "2020-07-22 07:15:00"
+              },
+              "end" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "2020-07-22 08:10:00",
+                  "comment" : ""
+                }
+              },
+              "type" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "unavailable",
+                  "comment" : ""
+                }
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "start" : {
+                "type" : "JSON_LITERAL",
+                "value" : "2020-07-22 17:15:00"
+              },
+              "end" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "2020-07-22 18:00:00",
+                  "comment" : ""
+                }
+              },
+              "type" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "available",
+                  "comment" : ""
+                }
+              }
+            }
+          } ]
+        },
+        "nextAvailableEvent" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "start" : {
+              "type" : "JSON_LITERAL",
+              "value" : "2020-07-27 17:15:00"
+            },
+            "end" : {
+              "type" : "JSON_LITERAL",
+              "value" : "2020-07-27 18:00:00"
+            },
+            "type" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "available",
+                "comment" : ""
+              }
+            }
+          }
+        },
+        "configAria" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"ariaTitle\": \"appointment calendar\", \"ariaBodyTitle\": \"appointment calendar\"}"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "486b3b0477e9acfa6e30c74dcbc04877",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr","grid-template-areas":"\"column1 column2\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "a653f1cd53c31010e6bcddeeff7b128c",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_2",
+  "elementLabel" : "Container 2",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "heading_1",
+  "elementLabel" : "Heading 1",
+  "propertyValues" : {
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "VitalSigns - Clinical Care Made Easy",
+        "comment" : ""
+      }
+    },
+    "level" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "header-primary"
+    },
+    "wontWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hasNoMargin" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Header",
+  "definition" : {
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "breadcrumbs_1",
+  "elementLabel" : "Breadcrumbs 1",
+  "propertyValues" : {
+    "items" : {
+      "type" : "LIST_CONTAINER",
+      "container" : [ {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "First Item",
+              "comment" : ""
+            }
+          },
+          "href" : {
+            "type" : "JSON_LITERAL",
+            "value" : "#"
+          },
+          "icon" : {
+            "type" : "JSON_LITERAL",
+            "value" : "home-outline"
+          },
+          "hideLabel" : {
+            "type" : "JSON_LITERAL",
+            "value" : true
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "Breadcrumbs1",
+              "comment" : ""
+            }
+          },
+          "href" : {
+            "type" : "JSON_LITERAL",
+            "value" : "#"
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "Breadcrumbs2",
+              "comment" : ""
+            }
+          },
+          "href" : {
+            "type" : "JSON_LITERAL",
+            "value" : "#"
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "Breadcrumbs3",
+              "comment" : ""
+            }
+          }
+        }
+      } ]
+    },
+    "delimiter" : {
+      "type" : "JSON_LITERAL",
+      "value" : "chevron"
+    },
+    "overflow" : {
+      "type" : "JSON_LITERAL",
+      "value" : "collapse"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Header",
+  "definition" : {
+    "id" : "9c2e48402c6c25d281faeb20637f6106",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events>31e0fdac07603010a419fdac7c1ed029</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Header","rules":{"grid-area":"header"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(50px, auto) minmax(400px, auto)","grid-template-columns":"1fr","grid-template-areas":"\"header\" \"main\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "3b7ced8953c31010e6bcddeeff7b12ef",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>home</name>
+        <props>[ ]</props>
+        <required_translations>[{"message":"Appointments","comment":""},{"message":"2020-07-22 19:10:00","comment":""},{"message":"First Item","comment":""},{"message":"Breadcrumbs3","comment":""},{"message":"Breadcrumbs1","comment":""},{"message":"Breadcrumbs2","comment":""},{"message":"available","comment":""},{"message":"unavailable","comment":""},{"message":"2020-07-22 08:10:00","comment":""},{"message":"VitalSigns - Clinical Care Made Easy","comment":""},{"message":"2020-07-22 18:00:00","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 14:14:50</sys_created_on>
+        <sys_id>7e63c16c07203010a419fdac7c1ed0dc</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>home</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_ux_macroponent_7e63c16c07203010a419fdac7c1ed0dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 18:17:19</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

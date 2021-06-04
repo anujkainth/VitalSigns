@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="VitalSigns">6d66799f07143010a419fdac7c1ed0ce</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="404">d9f3e2a20b2210108e64aabcb4673a1f</macroponent>
+        <macroponent_config/>
+        <name>error 404 default</name>
+        <order>10</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="error 404">ded6f99f07143010a419fdac7c1ed09d</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 20:47:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ed6f99f07143010a419fdac7c1ed0a2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>error 404 default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_ux_screen_1ed6f99f07143010a419fdac7c1ed0a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 20:50:47</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=1ed6f99f07143010a419fdac7c1ed0a2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_ux_screen_1ed6f99f07143010a419fdac7c1ed0a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="VitalSigns">6d66799f07143010a419fdac7c1ed0ce</app_config><description/><event_mappings/><macroponent display_value="404">d9f3e2a20b2210108e64aabcb4673a1f</macroponent><macroponent_config/><name>error 404 default</name><order>10</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><required_translations>[]</required_translations><screen_condition/><screen_type display_value="error 404">ded6f99f07143010a419fdac7c1ed09d</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-28 20:47:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ed6f99f07143010a419fdac7c1ed0a2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>error 404 default</sys_name><sys_overrides/><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sys_ux_screen_1ed6f99f07143010a419fdac7c1ed0a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-28 20:50:47</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=1ed6f99f07143010a419fdac7c1ed0a2"/></record_update>]]></payload>
+        <payload_hash>678163249</payload_hash>
+        <record_name>error 404 default</record_name>
+        <reverted_from/>
+        <source>749d87b607103010a419fdac7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 20:50:47</sys_created_on>
+        <sys_id>90b7fd9f07143010a419fdac7c1ed085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179b4be68220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 20:50:47</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>c8b7fd9fad143010cab7901b6ffa5e84</update_guid>
+        <update_guid_history>c8b7fd9fad143010cab7901b6ffa5e84:678163249,16d6bd9f2214301076b06b9adefa56f3:-2586140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 20:52:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>21b1285a4acb462091641b1b55f27290</sys_id>
+        <sys_metadata>1ed6f99f07143010a419fdac7c1ed0a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>error 404 default</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_1ed6f99f07143010a419fdac7c1ed0a2</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_1ed6f99f07143010a419fdac7c1ed0a2">90b7fd9f07143010a419fdac7c1ed085</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 20:52:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

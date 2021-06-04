@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <condition table="x_623760_vitalsign_appointments">assigned_toISNOTEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ANY</match_conditions>
+        <name>Staff</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 19:11:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b2fd11f07d03010a419fdac7c1ed008</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Staff</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sysrule_view_8b2fd11f07d03010a419fdac7c1ed008</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 20:23:55</sys_updated_on>
+        <table>x_623760_vitalsign_appointments</table>
+        <view>Staff</view>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sysrule_view_8b2fd11f07d03010a419fdac7c1ed008</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition table="x_623760_vitalsign_appointments"&gt;assigned_toISNOTEMPTY^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ANY&lt;/match_conditions&gt;&lt;name&gt;Staff&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-28 19:11:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8b2fd11f07d03010a419fdac7c1ed008&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Staff&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="VitalSigns" source="x_623760_vitalsign"&gt;267e090907903010a419fdac7c1ed0f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VitalSigns"&gt;267e090907903010a419fdac7c1ed0f9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_8b2fd11f07d03010a419fdac7c1ed008&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-02 20:23:55&lt;/sys_updated_on&gt;&lt;table&gt;x_623760_vitalsign_appointments&lt;/table&gt;&lt;view&gt;Staff&lt;/view&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>697743232</payload_hash>
+        <record_name>Staff</record_name>
+        <reverted_from/>
+        <source>749d87b607103010a419fdac7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 20:23:55</sys_created_on>
+        <sys_id>1771eb3807e03010a419fdac7c1ed02a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179ce659ab10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 20:23:55</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>5f71eb388fe03010112e823777405329</update_guid>
+        <update_guid_history>5f71eb388fe03010112e823777405329:697743232,b65d977434e03010f8cdd559ae531f26:1103678569,97cc573459e030105081064ad760192f:-369711991,ba0bdff0bde0301080fc118b9de57577:158092555,e80bdff07ae03010becb679b2a64e02d:1398665299,5e9969171d14301053abc5367581a13b:1631483115,ef02659ff0d03010a948d0ab140d8561:-742634282,55f06d1f02d03010a2baabb2597023e9:2078942454,e8e06d1f34d030100c000034a9559ce5:-1963093921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 15:21:28</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>1d18031826524e68aa9301dfa3b4d690</sys_id>
+        <sys_metadata>8b2fd11f07d03010a419fdac7c1ed008</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staff</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent display_value="Appointments">156c258d07143010a419fdac7c1ed0ee</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sysrule_view_8b2fd11f07d03010a419fdac7c1ed008</sys_update_name>
+        <sys_update_version display_value="sysrule_view_8b2fd11f07d03010a419fdac7c1ed008">1771eb3807e03010a419fdac7c1ed02a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 15:21:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -17,7 +17,7 @@
         <column_label>Notes</column_label>
         <comments/>
         <create_roles/>
-        <default_value>4000</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 15:22:24</sys_created_on>
         <sys_id>6a9be49707503010a419fdac7c1ed0a1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Notes</sys_name>
         <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
         <sys_policy/>
         <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
         <sys_update_name>sys_dictionary_x_623760_vitalsign_patient_screening_notes</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-28 15:22:24</sys_updated_on>
+        <sys_updated_on>2021-06-02 19:05:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>ab4f2c5b07503010a419fdac7c1ed031</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>6cb057f807a03010a419fdac7c1ed0b9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>patient_record_id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>2f4f2c5b07503010a419fdac7c1ed031</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>e0b057f807a03010a419fdac7c1ed0ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>patient_record_id.name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>af4f2c5b07503010a419fdac7c1ed031</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>64b057f807a03010a419fdac7c1ed0ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,41 +46,41 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>234f2c5b07503010a419fdac7c1ed032</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>e4b057f807a03010a419fdac7c1ed0ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>checked_in</element>
+            <element>checked_in.checked_in</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>a34f2c5b07503010a419fdac7c1ed032</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>68b057f807a03010a419fdac7c1ed0ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>checked_in.assigned_to</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>274f2c5b07503010a419fdac7c1ed032</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>e8b057f807a03010a419fdac7c1ed0ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.end_split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>a74f2c5b07503010a419fdac7c1ed032</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>6cb057f807a03010a419fdac7c1ed0ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>.begin_split</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>2b4f2c5b07503010a419fdac7c1ed032</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>ecb057f807a03010a419fdac7c1ed0ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>blood_pressure</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>ab4f2c5b07503010a419fdac7c1ed032</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>64b0dbf807a03010a419fdac7c1ed0c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>pulse</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>2f4f2c5b07503010a419fdac7c1ed032</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>e4b0dbf807a03010a419fdac7c1ed0c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>.split</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>af4f2c5b07503010a419fdac7c1ed032</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>68b0dbf807a03010a419fdac7c1ed0c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>respirations</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>234f2c5b07503010a419fdac7c1ed033</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>e8b0dbf807a03010a419fdac7c1ed0c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,15 +172,85 @@
             <element>temperature</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-28 15:34:32</sys_created_on>
-            <sys_id>a34f2c5b07503010a419fdac7c1ed033</sys_id>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>6cb0dbf807a03010a419fdac7c1ed0c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-28 15:34:32</sys_updated_on>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>ecb0dbf807a03010a419fdac7c1ed0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>60b0dbf807a03010a419fdac7c1ed0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>e0b0dbf807a03010a419fdac7c1ed0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tech_s_name</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>64b0dbf807a03010a419fdac7c1ed0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 19:10:34</sys_created_on>
+            <sys_id>e4b0dbf807a03010a419fdac7c1ed0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_623760_vitalsign_patient_screening" sys_domain="global" view="Default view">40bc245707503010a419fdac7c1ed02f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 19:10:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

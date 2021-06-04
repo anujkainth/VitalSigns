@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Appointments" max_length="40" name="x_623760_vitalsign_appointments" sizeclass="5" type="collection">
+    <element extends="task" label="Appointments" max_length="40" name="x_623760_vitalsign_appointments" sizeclass="6" type="collection">
         <element label="Appointment Date" max_length="40" name="appointment_date" type="glide_date_time"/>
         <element label="Checked In" max_length="40" name="checked_in" type="glide_date_time"/>
         <element label="Encounter Notes" max_length="5000" name="encounter_notes" type="string"/>
+        <element choice="1" label="Lab Test" max_length="40" name="lab_test" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="blood cultures" value="Blood Cultures"/>
+                <element inactive_on_update="false" label="CBC" value="CBC"/>
+                <element inactive_on_update="false" label="TSH" value="TSH"/>
+                <element inactive_on_update="false" label="WBC" value="WBC"/>
+            </choice>
+        </element>
+        <element label="MRI" max_length="40" name="mri" type="boolean"/>
+        <element attributes="encode_utf8=false" dependent="patient_record_id" dependent_on_field="patient_record_id" display="true" label="Name" max_length="32" name="name" reference="x_623760_vitalsign_patient_record" type="reference" use_dependent_field="true"/>
         <element label="Patient Record ID" max_length="32" name="patient_record_id" reference="x_623760_vitalsign_patient_record" type="reference"/>
         <element label="Reason for Visit" max_length="1000" name="reason_for_visit" type="string"/>
-        <element label="Special Tests" max_length="32" name="special_tests" reference="x_623760_vitalsign_lab" type="reference"/>
         <element label="Testing Tasks" max_length="32" name="testing_tasks" reference="x_623760_vitalsign_testing_tasks" type="reference"/>
+        <element choice="1" label="X-ray" max_length="40" name="x_ray" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ankle" value="Ankle"/>
+                <element inactive_on_update="false" label="Foot" value="Foot"/>
+                <element inactive_on_update="false" label="Hand" value="Hand"/>
+                <element inactive_on_update="false" label="Shoulder" value="Shoulder"/>
+            </choice>
+        </element>
     </element>
 </database>

@@ -2,22 +2,22 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
+        <compiler_build>glide-quebec-12-09-2020__patch1-02-18-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>Creates a Vital Sign Record once patient checks in</description>
         <internal_name>vital_signs</internal_name>
-        <label_cache>[]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"Updated_1.current.name.number","label":"Trigger➛Appointments Record➛Name➛Patient Record ID","reference":"","reference_display":"Patient Record ID","type":"string","base_type":"string","parent_table_name":"x_623760_vitalsign_patient_record","column_name":"number"},{"name":"10072d30-50a2-40af-891e-25759a954001.record","label":"1➛Patient Screening Record","reference":"x_623760_vitalsign_patient_screening","reference_display":"Patient Screening Record","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10072d30-50a2-40af-891e-25759a954001.table_name","label":"1➛Patient Screening Table","reference":"x_623760_vitalsign_patient_screening","reference_display":"Patient Screening Table","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10072d30-50a2-40af-891e-25759a954001.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10072d30-50a2-40af-891e-25759a954001.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Appointments Record","reference":"x_623760_vitalsign_appointments","reference_display":"Appointments","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.name","label":"Trigger➛Appointments Record➛Name","reference":"x_623760_vitalsign_patient_record","reference_display":"Name","type":"reference","base_type":"reference","parent_table_name":"x_623760_vitalsign_appointments","column_name":"name"},{"name":"Updated_1.current.patient_record_id.number","label":"Trigger➛Appointments Record➛Patient Record ID➛Patient Record ID","reference":"","reference_display":"Patient Record ID","type":"string","base_type":"string","parent_table_name":"x_623760_vitalsign_patient_record","column_name":"number"}]</label_cache>
+        <latest_snapshot>2257b63807603010a419fdac7c1ed00a</latest_snapshot>
+        <master_snapshot>c2607ab007603010a419fdac7c1ed01f</master_snapshot>
         <name>Vital Signs </name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id/>
+        <remote_trigger_id>6e607ab007603010a419fdac7c1ed074</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>de592c1707503010a419fdac7c1ed013</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Vital Signs </sys_name>
         <sys_overrides/>
         <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
@@ -38,11 +38,139 @@
         <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
         <sys_update_name>sys_hub_flow_de592c1707503010a419fdac7c1ed013</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-28 15:08:30</sys_updated_on>
+        <sys_updated_on>2021-06-02 19:08:07</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=de592c1707503010a419fdac7c1ed013"/>
     <sys_variable_value action="delete_multiple" query="document_key=de592c1707503010a419fdac7c1ed013"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_623760_vitalsign_appointments">checked_inVALCHANGES^checked_inISNOTEMPTY<item endquery="false" field="checked_in" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="checked_in" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e607ab007603010a419fdac7c1ed074</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:31</sys_updated_on>
+        <table>x_623760_vitalsign_appointments</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"e2607ab007603010a419fdac7c1ed075","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>de592c1707503010a419fdac7c1ed013</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:31</sys_created_on>
+        <sys_id>e2607ab007603010a419fdac7c1ed075</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:31</sys_updated_on>
+        <trigger display_value="">6e607ab007603010a419fdac7c1ed074</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>e2607ab007603010a419fdac7c1ed075</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:31</sys_created_on>
+        <sys_id>66607ab007603010a419fdac7c1ed075</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=de592c1707503010a419fdac7c1ed013^sys_idNOT INe2607ab007603010a419fdac7c1ed075"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=de592c1707503010a419fdac7c1ed013^sys_idNOT IN9e30b6b007603010a419fdac7c1ed00e"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Vital Signs ">de592c1707503010a419fdac7c1ed013</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:48:41</sys_created_on>
+        <sys_id>9e30b6b007603010a419fdac7c1ed00e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 19:08:07</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9e30b6b007603010a419fdac7c1ed00e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9e30b6b007603010a419fdac7c1ed00e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:48:41</sys_created_on>
+        <sys_id>1230b6b007603010a419fdac7c1ed011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:48:41</sys_updated_on>
+        <value>x_623760_vitalsign_appointments</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9e30b6b007603010a419fdac7c1ed00e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:48:41</sys_created_on>
+        <sys_id>1e30b6b007603010a419fdac7c1ed010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:48:41</sys_updated_on>
+        <value>checked_inVALCHANGES^checked_inISNOTEMPTY</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9e30b6b007603010a419fdac7c1ed00e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:26</sys_created_on>
+        <sys_id>59603ab007603010a419fdac7c1ed087</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:26</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">4ecd76460f103300b599bca2ff767e0d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9e30b6b007603010a419fdac7c1ed00e</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:26</sys_created_on>
+        <sys_id>95603ab007603010a419fdac7c1ed087</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:26</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=de592c1707503010a419fdac7c1ed013^sys_idNOT IN5e592c1707503010a419fdac7c1ed014"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>de592c1707503010a419fdac7c1ed013</id>
@@ -55,4 +183,903 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-05-28 15:08:31</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=de592c1707503010a419fdac7c1ed013^sys_idNOT IN1a30b6b007603010a419fdac7c1ed007,da3076b007603010a419fdac7c1ed0fb,da30b6b007603010a419fdac7c1ed001"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Vital Signs ">de592c1707503010a419fdac7c1ed013</model>
+        <model_id>de592c1707503010a419fdac7c1ed013</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_de592c1707503010a419fdac7c1ed013</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:48:41</sys_created_on>
+        <sys_id>1a30b6b007603010a419fdac7c1ed007</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 17:23:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Vital Signs ">de592c1707503010a419fdac7c1ed013</model>
+        <model_id>de592c1707503010a419fdac7c1ed013</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_de592c1707503010a419fdac7c1ed013</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:48:41</sys_created_on>
+        <sys_id>da3076b007603010a419fdac7c1ed0fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 17:23:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDac2093f8a5a030104a6140ff7e15e0b6,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Vital Signs ">de592c1707503010a419fdac7c1ed013</model>
+        <model_id>de592c1707503010a419fdac7c1ed013</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_de592c1707503010a419fdac7c1ed013</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:48:41</sys_created_on>
+        <sys_id>da30b6b007603010a419fdac7c1ed001</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 19:08:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=de592c1707503010a419fdac7c1ed013^sys_idNOT IN91603ab007603010a419fdac7c1ed08c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Vital Signs ">de592c1707503010a419fdac7c1ed013</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:26</sys_created_on>
+        <sys_id>91603ab007603010a419fdac7c1ed08c</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 19:08:07</sys_updated_on>
+        <ui_id>10072d30-50a2-40af-891e-25759a954001</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=91603ab007603010a419fdac7c1ed08c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>91603ab007603010a419fdac7c1ed08c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:26</sys_created_on>
+        <sys_id>5d603ab007603010a419fdac7c1ed08d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:26</sys_updated_on>
+        <value>x_623760_vitalsign_patient_screening</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=91603ab007603010a419fdac7c1ed08c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>91603ab007603010a419fdac7c1ed08c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:26</sys_created_on>
+        <sys_id>19603ab007603010a419fdac7c1ed08d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 19:08:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>checked_in={{Updated_1.current}}^patient_record_id={{Updated_1.current.name}}^coalesce_fields=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>91603ab007603010a419fdac7c1ed08c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:26</sys_created_on>
+        <sys_id>d9603ab007603010a419fdac7c1ed08d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_de592c1707503010a419fdac7c1ed013^sys_idNOT IN1630b6b007603010a419fdac7c1ed000,5230b6b007603010a419fdac7c1ed006,5a30b6b007603010a419fdac7c1ed00b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_de592c1707503010a419fdac7c1ed013</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:48:41</sys_created_on>
+        <sys_id>1630b6b007603010a419fdac7c1ed000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:48:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_de592c1707503010a419fdac7c1ed013</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:48:41</sys_created_on>
+        <sys_id>5230b6b007603010a419fdac7c1ed006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:48:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_de592c1707503010a419fdac7c1ed013</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:48:41</sys_created_on>
+        <sys_id>5a30b6b007603010a419fdac7c1ed00b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:48:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=de592c1707503010a419fdac7c1ed013^sys_idNOT IN6a607ab007603010a419fdac7c1ed075"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"6a607ab007603010a419fdac7c1ed075","name":"plan"}}</plan>
+        <plan_id>de592c1707503010a419fdac7c1ed013</plan_id>
+        <snapshot>2257b63807603010a419fdac7c1ed00a</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a607ab007603010a419fdac7c1ed075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:31</sys_updated_on>
+        <trigger display_value="">6e607ab007603010a419fdac7c1ed074</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Creates a Vital Sign Record once patient checks in</description>
+        <internal_name>vital_signs</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Appointments Record","reference":"x_623760_vitalsign_appointments","reference_display":"Appointments","type":"reference","base_type":"reference","attributes":{}},{"name":"10072d30-50a2-40af-891e-25759a954001.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10072d30-50a2-40af-891e-25759a954001.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10072d30-50a2-40af-891e-25759a954001.table_name","label":"1➛Patient Screening Table","reference":"x_623760_vitalsign_patient_screening","reference_display":"Patient Screening","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10072d30-50a2-40af-891e-25759a954001.record","label":"1➛Patient Screening Record","reference":"x_623760_vitalsign_patient_screening","reference_display":"Patient Screening","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Vital Signs </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Vital Signs ">de592c1707503010a419fdac7c1ed013</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2607ab007603010a419fdac7c1ed01f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:29</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2607ab007603010a419fdac7c1ed01f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c2607ab007603010a419fdac7c1ed01f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c2607ab007603010a419fdac7c1ed01f^sys_idNOT IN16607ab007603010a419fdac7c1ed05f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Vital Signs ">c2607ab007603010a419fdac7c1ed01f</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>16607ab007603010a419fdac7c1ed05f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:31</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=16607ab007603010a419fdac7c1ed05f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>16607ab007603010a419fdac7c1ed05f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>16607ab007603010a419fdac7c1ed061</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <value>x_623760_vitalsign_appointments</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>16607ab007603010a419fdac7c1ed05f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>52607ab007603010a419fdac7c1ed061</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">4ecd76460f103300b599bca2ff767e0d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>16607ab007603010a419fdac7c1ed05f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>9e607ab007603010a419fdac7c1ed060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <value>checked_inVALCHANGES^checked_inISNOTEMPTY</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>16607ab007603010a419fdac7c1ed05f</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>da607ab007603010a419fdac7c1ed060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c2607ab007603010a419fdac7c1ed01f^sys_idNOT INca607ab007603010a419fdac7c1ed01f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c2607ab007603010a419fdac7c1ed01f</id>
+        <name>Vital Signs </name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:29</sys_created_on>
+        <sys_id>ca607ab007603010a419fdac7c1ed01f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=c2607ab007603010a419fdac7c1ed01f^sys_idNOT IN56607ab007603010a419fdac7c1ed03e,9e607ab007603010a419fdac7c1ed033,ca607ab007603010a419fdac7c1ed022"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Vital Signs ">c2607ab007603010a419fdac7c1ed01f</model>
+        <model_id>c2607ab007603010a419fdac7c1ed01f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c2607ab007603010a419fdac7c1ed01f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>56607ab007603010a419fdac7c1ed03e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDc6607ab0d46030108b098df2b8ee2c20,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Vital Signs ">c2607ab007603010a419fdac7c1ed01f</model>
+        <model_id>c2607ab007603010a419fdac7c1ed01f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c2607ab007603010a419fdac7c1ed01f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>9e607ab007603010a419fdac7c1ed033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Vital Signs ">c2607ab007603010a419fdac7c1ed01f</model>
+        <model_id>c2607ab007603010a419fdac7c1ed01f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c2607ab007603010a419fdac7c1ed01f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>ca607ab007603010a419fdac7c1ed022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c2607ab007603010a419fdac7c1ed01f^sys_idNOT IN1e607ab007603010a419fdac7c1ed05d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Vital Signs ">c2607ab007603010a419fdac7c1ed01f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>1e607ab007603010a419fdac7c1ed05d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <ui_id>10072d30-50a2-40af-891e-25759a954001</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1e607ab007603010a419fdac7c1ed05d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1e607ab007603010a419fdac7c1ed05d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>12607ab007603010a419fdac7c1ed05f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <value>x_623760_vitalsign_patient_screening</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1e607ab007603010a419fdac7c1ed05d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>1e607ab007603010a419fdac7c1ed05d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>da607ab007603010a419fdac7c1ed05e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>checked_in={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1e607ab007603010a419fdac7c1ed05d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>9e607ab007603010a419fdac7c1ed05e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c2607ab007603010a419fdac7c1ed01f^sys_idNOT IN16607ab007603010a419fdac7c1ed03a,5e607ab007603010a419fdac7c1ed02f,d6607ab007603010a419fdac7c1ed044"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c2607ab007603010a419fdac7c1ed01f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>16607ab007603010a419fdac7c1ed03a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c2607ab007603010a419fdac7c1ed01f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>5e607ab007603010a419fdac7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c2607ab007603010a419fdac7c1ed01f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 16:49:30</sys_created_on>
+        <sys_id>d6607ab007603010a419fdac7c1ed044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 16:49:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
 </record_update>

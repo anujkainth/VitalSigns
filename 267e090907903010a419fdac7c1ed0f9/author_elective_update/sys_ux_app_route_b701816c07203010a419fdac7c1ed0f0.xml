@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="VitalSigns">6d66799f07143010a419fdac7c1ed0ce</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Home</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home</route_type>
+        <screen_type display_value="Home">a30185a407203010a419fdac7c1ed02a</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 14:04:31</sys_created_on>
+        <sys_id>b701816c07203010a419fdac7c1ed0f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_update_name>sys_ux_app_route_b701816c07203010a419fdac7c1ed0f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 14:04:31</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=b701816c07203010a419fdac7c1ed0f0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</application>
+        <file_path/>
+        <instance_id>15a3a466dbc1ffc40ae3ac44d4961979</instance_id>
+        <instance_name>dev84147</instance_name>
+        <name>sys_ux_app_route_b701816c07203010a419fdac7c1ed0f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="VitalSigns">6d66799f07143010a419fdac7c1ed0ce</app_config><description/><fields/><icon/><name>Home</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>home</route_type><screen_type display_value="Home">a30185a407203010a419fdac7c1ed02a</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-01 14:04:31</sys_created_on><sys_id>b701816c07203010a419fdac7c1ed0f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Home</sys_name><sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package><sys_policy/><sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope><sys_update_name>sys_ux_app_route_b701816c07203010a419fdac7c1ed0f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-01 14:04:31</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=b701816c07203010a419fdac7c1ed0f0"/></record_update>]]></payload>
+        <payload_hash>1029418412</payload_hash>
+        <record_name>Home</record_name>
+        <reverted_from/>
+        <source>749d87b607103010a419fdac7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 14:04:31</sys_created_on>
+        <sys_id>7b01816c07203010a419fdac7c1ed0f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179c7e3e4b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 14:04:31</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>b301816c742030109f97d9a28ca45cf2</update_guid>
+        <update_guid_history>b301816c742030109f97d9a28ca45cf2:1029418412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 14:08:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>158532183b674d37915b7b23ff99d471</sys_id>
+        <sys_metadata>b701816c07203010a419fdac7c1ed0f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="VitalSigns" source="x_623760_vitalsign">267e090907903010a419fdac7c1ed0f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VitalSigns">267e090907903010a419fdac7c1ed0f9</sys_scope>
+        <sys_scope_delete display_value="">05cc4b4919854f0e80af88a8f5244011</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_b701816c07203010a419fdac7c1ed0f0</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_b701816c07203010a419fdac7c1ed0f0">7b01816c07203010a419fdac7c1ed0f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 14:08:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
